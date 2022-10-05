@@ -8,7 +8,7 @@ export default function Navbar() {
 
 <nav id='navbarID' className="navbar navbar-expand-sm navbar-light" >
   <div className="container">
-    <a className="navbar-brand" style={{color:'#5b818e'}} href="#">Navbar</a>
+    <a className="navbar-brand" style={{color:'#5b818e'}} href="#">Quoter</a>
     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
