@@ -1,0 +1,8 @@
+#navbarID{
+    position: fixed;
+    width: 100vw;
+    background-color: aliceblue;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+}
