@@ -53,3 +53,6 @@
   box-shadow: 0 0 10px #52ffa8;
 
 }
+#diceButtonId svg{
+  rotate: 360deg;
+}
