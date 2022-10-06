@@ -17,23 +17,19 @@
 
 }
 
-
 .text {
-  padding: 50px;
-
-
+  margin-inline: 30px;
+  display: none;
 }
 
 .line {
+  bottom: 300px;
   display: flex;
   align-self: center;
   justify-content: center;
   width: 100px;
 }
 
-#quoteCard::after {
-  content: 'asds';
-}
 
 #diceButtonId {
   margin-top: 60px;
