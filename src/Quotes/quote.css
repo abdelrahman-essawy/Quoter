@@ -44,6 +44,8 @@
   align-self: center;
   justify-content: center;
   transform: translateY(50%);
+  opacity: 0;
+  
 }
 
 
