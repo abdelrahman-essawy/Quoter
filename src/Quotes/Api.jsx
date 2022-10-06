@@ -25,7 +25,7 @@ export default function Api(props) {
   function rotateButton() {
     $('#diceButtonId svg').animate({
       rotate: '0deg'
-    }, { duration: 500 }, "easein", $('#diceButtonId svg').animate({ rotate: '360deg' })
+    }, { duration: 500 }, $('#diceButtonId svg').animate({ rotate: '360deg' })
     )
     console.log('rotateButton')
   }

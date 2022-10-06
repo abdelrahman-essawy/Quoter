@@ -5,4 +5,5 @@
     border-color: white;
     display: flex;
     justify-content: center;
+    box-shadow: 1px 10px 15px -1px rgba(0, 0, 0, 0.532);
 }
