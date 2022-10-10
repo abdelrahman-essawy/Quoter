@@ -1,6 +1,10 @@
 import './quote.css'
 import $ from 'jquery';
 export default function Quote({ content, generateNewQuote }) {
+    let a=''
+    if (a) {
+        
+    }
 
     return (
 
@@ -11,7 +15,7 @@ export default function Quote({ content, generateNewQuote }) {
 
             <div className='quoteCard row col-md-6 align-self-center'>
                 <div className='align-self-center mt-5'>
-                    <div className='text text-center'>"{content}"</div>
+                    <p className='text text-center'><q>{content}</q></p>
 
                 </div>
                 <div className='line'>

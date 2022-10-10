@@ -4,6 +4,12 @@ import Quote from './Quote'
 import $, { easing } from 'jquery';
 
 
+{
+
+}
+
+
+
 export default function Api(props) {
   const [quote, setQuote] = useState('')
   let respone = ''
@@ -12,6 +18,7 @@ export default function Api(props) {
     respone = await Axios.get('https://api.quotable.io/random?minLength=20&maxLength=140')
     setQuote(respone.data.content)
     $('.text').fadeIn(250);
+    console.log(respone)
 
   }
 
